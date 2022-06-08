@@ -14,7 +14,6 @@ model.load_state_dict(trained_model)
 
 
 def view_classify(img, ps):
-
     ps = ps.data.numpy().squeeze()
 
     fig, (ax1, ax2) = plt.subplots(figsize=(6,9), ncols=2)
